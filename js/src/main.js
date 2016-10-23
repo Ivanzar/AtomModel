@@ -55,8 +55,8 @@ var update = function()
     scene.children[3].position.y = 10*Math.sin(Math.PI/180*90);
     scene.children[3].position.x = 10*Math.cos(Math.PI/180*90);
     
-    scene.children[3].position.y = 10*Math.sin(angle);
-    scene.children[3].position.z = 10*Math.cos(angle);
+    scene.children[3].position.z = 10*Math.sin(angle);
+    scene.children[3].position.y = 10*Math.cos(angle);
     
     
    
@@ -65,7 +65,7 @@ var update = function()
     
     console.log(flag);
     
-    angle += Math.PI/180*2;
+    angle += Math.PI/180*3;
     
     renderer.render(scene, camera);
     
