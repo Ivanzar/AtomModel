@@ -1,3 +1,3 @@
 # AtomModel
 Three.js demo
-[GitHub](http://github.com)
+[View](https://ivanzar.github.io/atommodel/index.html)
